@@ -117,7 +117,7 @@ I have defined a function called `sw` which sources your workspace. I've added t
 sw
 ```
 
-Essentially, `sw` sources `/opt/ros/foxy/setup.bash` then looks for `~/ws/install/local_setup.bash` and sources that if available.
+Essentially, `sw` sources `/opt/ros/foxy/setup.bash` if it exists, then looks for `~/ws/install/local_setup.bash` and sources that if available.
 
 ## Tips
 
